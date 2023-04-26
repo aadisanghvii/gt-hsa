@@ -14,7 +14,6 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
     github: "https://github.com/aadisanghvii/gt-hsa",
   },
 }
