@@ -1,23 +1,16 @@
-# next-template
+# HSA Project
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+A website built for my GT HSA Technology Project
 
-## Usage
+## Code Quality
 
-```bash
-npx create-next-app -e https://github.com/shadcn/next-template
-```
+- Commit messages aren't the nicest due to the time crunch
+- Spaghetti code is present as I'm still learning
 
-## Features
+## Tools
 
-- Radix UI Primitives
+- Shadcn component library
 - Tailwind CSS
 - Fonts with `next/font`
 - Icons from [Lucide](https://lucide.dev)
 - Dark mode with `next-themes`
-- Automatic import sorting with `@ianvs/prettier-plugin-sort-imports`
-- Tailwind CSS class sorting, merging and linting.
-
-## License
-
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
