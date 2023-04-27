@@ -5,7 +5,7 @@ export default function IndexPage() {
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
           HSA Project
         </h1>
-        <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
+        <p className="text-muted-foreground max-w-[700px] text-lg sm:text-xl">
           Programmed from scratch by Aadi Sanghvi
         </p>
       </div>
