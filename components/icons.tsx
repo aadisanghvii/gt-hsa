@@ -10,6 +10,22 @@ export type Icon = LucideIcon
 export const Icons = {
   sun: SunMedium,
   moon: Moon,
+  arrow: (props: LucideProps) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      {...props}
+    >
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  ),
   logo: (props: LucideProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +33,7 @@ export const Icons = {
       viewBox="0 0 24 24"
       stroke-width="1.5"
       stroke="currentColor"
-      className="w-6 h-6"
+      className="h-6 w-6"
       {...props}
     >
       <path
