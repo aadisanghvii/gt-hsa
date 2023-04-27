@@ -8,10 +8,6 @@ export const siteConfig = {
       title: "Home",
       href: "/",
     },
-    {
-      title: "Docs",
-      href: "/",
-    },
   ],
   links: {
     github: "https://github.com/aadisanghvii/gt-hsa",
