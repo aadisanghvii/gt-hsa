@@ -2,6 +2,7 @@ import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
+import { Icons } from "@/components/icons"
 
 export default function IndexPage() {
   return (
@@ -23,9 +24,12 @@ export default function IndexPage() {
           target="_blank"
           rel="noreferrer"
           href={siteConfig.links.github}
-          className={buttonVariants({ size: "lg" })}
+          className={
+            buttonVariants({ size: "lg" }) + " shadow-md shadow-foreground/60"
+          }
         >
           Explore
+          <Icons.arrow />
         </Link>
       </div>
     </section>
