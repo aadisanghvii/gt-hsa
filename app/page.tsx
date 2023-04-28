@@ -11,7 +11,7 @@ export default function IndexPage() {
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
           Gene editing
         </h1>
-        <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
+        <p className="max-w-[700px] text-sm text-muted-foreground md:text-xl lg:text-2xl">
           Programmed from{" "}
           <span className="gradient hover:bg-gradient-to-r hover:from-blue-200 hover:to-purple-400">
             scratch
