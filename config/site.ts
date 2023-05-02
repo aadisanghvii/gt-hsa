@@ -5,6 +5,10 @@ export const siteConfig = {
   description: "HSA Technology project for the GT 2022-2023 school year",
   mainNav: [
     {
+      title: "Info",
+      href: "/info",
+    },
+    {
       title: "Sources",
       href: "/sources",
     },
