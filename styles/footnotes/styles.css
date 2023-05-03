@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /**
- * 1. Initialiazing a `footnotes` counter on the content wrapper.
+ * 1. Initializing a `footnotes` counter on the content wrapper.
  *    `body` can be used if there is only one such wrapper per page
  *    otherwise something more specific should be used.
  */
@@ -42,7 +42,7 @@ body {
 [data-a11y-footnotes-ref] {
     counter-increment: footnotes; /* 1 */
     text-decoration: none; /* 2 */
-    color: inherit; /* 2 */
+    color: inherit;
     cursor: default; /* 2 */
     outline: none; /* 2 */
 }
@@ -66,9 +66,8 @@ body {
     vertical-align: super; /* 2 */
     font-size: 50%; /* 3 */
     margin-left: 2px; /* 4 */
-    /*color: blue; !* 5 *!*/
     cursor: pointer; /* 5 */
-    @apply text-secondary-foreground
+    @apply text-primary hover:text-blue-500 dark:text-gray-600 dark:hover:text-gray-400
 }
 
 /**
