@@ -34,3 +34,10 @@ yarn-error.log*
 
 .contentlayer
 .env
+/.idea/.gitignore
+/.idea/dbnavigator.xml
+/.idea/gt-tech.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
