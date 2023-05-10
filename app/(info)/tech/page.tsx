@@ -10,9 +10,9 @@ import "../../../styles/footnotes/styles.css"
 
 const Page = () => {
   return (
-    <article className="prose-ul prose p-10 lg:prose-lg">
+    <article className="prose-ul prose p-10 text-muted-foreground lg:prose-lg">
       <FootnotesProvider>
-        <h1 className="text-foreground">CRISPR-Cas9</h1>
+        <h1 className="text-foreground">Technology</h1>
         <p>
           Start editing to see some{" "}
           <Ref
@@ -60,7 +60,7 @@ const Page = () => {
           display the actual footnotes in the footer, it becomes extremely easy.
         </p>
 
-        <Footnotes />
+        <Footnotes/>
       </FootnotesProvider>
     </article>
   )

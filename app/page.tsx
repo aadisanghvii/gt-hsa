@@ -23,14 +23,14 @@ export default function IndexPage() {
             by Aadi Sanghvi
           </p>
           <div className="space-x-4">
-            <Link href="/tech" className={cn(buttonVariants({ size: "lg" }))}>
+            <Link href="/tech" className={cn(buttonVariants({ size: "lg" }), "shadow-sm shadow-foreground/60")}>
               Get Started
             </Link>
             <Link
               href={siteConfig.links.github}
               target="_blank"
               rel="noreferrer"
-              className={cn(buttonVariants({ variant: "outline", size: "lg" }))}
+              className={cn(buttonVariants({ variant: "outline", size: "lg" }), "shadow-sm shadow-primary")}
             >
               GitHub
             </Link>
