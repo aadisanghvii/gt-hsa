@@ -6,7 +6,7 @@ import {
   FootnoteRef as Ref,
 } from "react-a11y-footnotes"
 
-import "../../styles/footnotes/styles.css"
+import "../../../styles/footnotes/styles.css"
 
 const Page = () => {
   return (
