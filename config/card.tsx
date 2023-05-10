@@ -33,34 +33,4 @@ export const card: CardData[] = [
       height: 60,
     },
   },
-  {
-    title: "History",
-    description: "The history of genetic engineering.",
-    image: {
-      src: "/history.svg",
-      alt: "History",
-      width: 60,
-      height: 60,
-    },
-  },
-  {
-    title: "Future",
-    description: "The future of genetic engineering.",
-    image: {
-      src: "/future.svg",
-      alt: "Future",
-      width: 60,
-      height: 60,
-    },
-  },
-  {
-    title: "Science",
-    description: "The science behind genetic engineering.",
-    image: {
-      src: "/science.svg",
-      alt: "Science",
-      width: 60,
-      height: 60,
-    },
-  },
 ]
