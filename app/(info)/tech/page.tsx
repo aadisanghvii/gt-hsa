@@ -41,21 +41,7 @@ const page = () => {
           Genome editing has many potential applications, including in
           agriculture, medicine, and biotechnology. For example, it could be
           used to develop crops that are more resistant to pests or climate
-          change, or to cure genetic diseases in{" "}
-          <Ref
-            description={
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.who.int/health-topics/human-genome-editing"
-              >
-                National Academies Genome Editing: Science, Ethics, and
-                Governance
-              </a>
-            }
-          >
-            humans.
-          </Ref>
+          change, or to cure genetic diseases in humans.
         </p>
         <p>
           However, genome editing also raises a number of ethical and social

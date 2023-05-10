@@ -55,10 +55,10 @@ export default function IndexPage() {
             Contains
           </h2>
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-            Thesis: From 1900 to the present, gene editing technologies have
-            changed the world by allowing for the production of high value
-            crops, revolutionized biology research, and to treat genetic
-            defects.
+            Thesis: The development of gene editing technologies, from the
+            discovery of DNA to the CRISPR-Cas9 system, has significantly
+            transformed the world since the 1900s, revolutionizing medicine,
+            agriculture, energy production, and environmental remediation.
           </p>
         </div>
         <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
@@ -68,15 +68,9 @@ export default function IndexPage() {
         </div>
         <div className="mx-auto text-center md:max-w-[58rem]">
           <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-            Inspiration for this project came from{" "}
-            <a
-              href="https://tx.shadcn.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 dark:text-blue-200"
-            >
-              Taxonomy
-            </a>
+            The audience of this website is the general public, including
+            teenagers and adults. Specifically, the target demographic would be
+            between the ages of 13-75
           </p>
         </div>
       </section>
