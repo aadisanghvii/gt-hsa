@@ -1,7 +1,10 @@
-import { ReactElement } from "react"
-
 export interface CardData {
   title: string
   description: string
-  icon: ReactElement
+  image: {
+    src: string
+    alt: string
+    height: number
+    width: number
+  }
 }

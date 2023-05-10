@@ -46,18 +46,13 @@ export default function IndexPage() {
             Contains
           </h2>
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-            This project contains information about gene editing tools and the
-            ethical implications of their use.
+            This website contains information about the science, ethics,
+            methods, applications, history, and future of genetic engineering.
           </p>
         </div>
         <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
           {card.map((card) => (
-            <HomeCard
-              title={card.title}
-              description={card.description}
-              icon={card.icon}
-              key={card.title}
-            />
+            <HomeCard {...card} />
           ))}
         </div>
         <div className="mx-auto text-center md:max-w-[58rem]">
