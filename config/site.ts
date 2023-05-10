@@ -15,6 +15,18 @@ export const siteConfig = {
       href: "/applications",
     },
     {
+      title: "History",
+      href: "/history",
+    },
+    {
+      title: "Future",
+      href: "/future",
+    },
+    {
+      title: "Science",
+      href: "/science",
+    },
+    {
       title: "Sources",
       href: "/sources",
     },
