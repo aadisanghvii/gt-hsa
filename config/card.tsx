@@ -63,4 +63,5 @@ export const card: CardData[] = [
       height: 60,
     },
   },
+
 ]
