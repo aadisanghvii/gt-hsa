@@ -1,10 +1,16 @@
-export const siteConfig = {
+import { Config } from "@/types/config"
+
+export const siteConfig: Config = {
   name: "HSA Project",
   description: "HSA Technology project for the GT 2022-2023 school year",
   mainNav: [
     {
-      title: "Info",
-      href: "/info",
+      title: "Technology",
+      href: "/tech",
+    },
+    {
+      title: "Ethics",
+      href: "/ethics",
     },
     {
       title: "Sources",

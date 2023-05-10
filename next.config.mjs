@@ -4,6 +4,17 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'source.unsplash.com',
+        port: '',
+        pathname: '/random/56x56'
+      }
+    ]
+  }
 }
+
 
 export default nextConfig
