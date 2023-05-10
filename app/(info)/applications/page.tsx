@@ -16,11 +16,17 @@ const page = () => {
         <p>
           While genetic engineering has many potential benefits, it is also
           important to consider the potential risks and ethical implications of
-          these applications. As citizens, it is important to hold the
-          government and private companies accountable for the ethical use of
-          genetic engineering technologies.
+          these applications.{" "}
+        </p>{" "}
+        <p>
+          As citizens, it is important to hold the government and private
+          companies accountable for the ethical use of genetic engineering
+          technologies. I urge you to take the information this website will
+          provide you, and answer the clarion call we sound to you today. It is
+          the duty of every law abiding citizen to understand and participate in
+          the debates regarding genetic engineering. The future of our species
+          depends on it.
         </p>
-
         <h2 className="text-foreground">Healthcare</h2>
         <p>
           Genetic engineering holds great promise for treating genetic diseases.
