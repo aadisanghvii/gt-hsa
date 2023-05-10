@@ -23,14 +23,23 @@ export default function IndexPage() {
             by Aadi Sanghvi
           </p>
           <div className="space-x-4">
-            <Link href="/tech" className={cn(buttonVariants({ size: "lg" }), "shadow-sm shadow-foreground/60")}>
+            <Link
+              href="/tech"
+              className={cn(
+                buttonVariants({ size: "lg" }),
+                "shadow-sm shadow-foreground/60"
+              )}
+            >
               Get Started
             </Link>
             <Link
               href={siteConfig.links.github}
               target="_blank"
               rel="noreferrer"
-              className={cn(buttonVariants({ variant: "outline", size: "lg" }), "shadow-sm shadow-primary")}
+              className={cn(
+                buttonVariants({ variant: "outline", size: "lg" }),
+                "shadow-sm shadow-primary"
+              )}
             >
               GitHub
             </Link>
@@ -46,8 +55,10 @@ export default function IndexPage() {
             Contains
           </h2>
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-            This website contains information about the science, ethics,
-            methods, applications, history, and future of genetic engineering.
+            Thesis: From 1900 to the present, gene editing technologies have
+            changed the world by allowing for the production of high value
+            crops, revolutionized biology research, and to treat genetic
+            defects.
           </p>
         </div>
         <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
