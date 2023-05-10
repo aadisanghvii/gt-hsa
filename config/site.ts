@@ -11,6 +11,10 @@ export const siteConfig = {
       href: "/ethics",
     },
     {
+      title: "Applications",
+      href: "/applications",
+    },
+    {
       title: "Sources",
       href: "/sources",
     },
