@@ -8,24 +8,7 @@ import {
 
 import "../../../styles/footnotes/styles.css"
 
-const Page = () => {
-  //   <p>
-  //           Start editing to see some{" "}
-  //           <Ref
-  //             description={
-  //               <a
-  //                 target="_blank"
-  //                 rel="noopener noreferrer"
-  //                 href="https://example.com"
-  //               >
-  //                 Gene control (CRISPR-Cas9)
-  //               </a>
-  //             }
-  //           >
-  //             magic
-  //           </Ref>{" "}
-  //           happen!
-  //         </p>
+const page = () => {
   return (
     <article className="prose-ul prose p-10 text-muted-foreground lg:prose-lg">
       <FootnotesProvider>
@@ -169,4 +152,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default page
