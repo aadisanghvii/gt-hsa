@@ -1,10 +1,14 @@
 import Image from "next/image"
+import Link from "next/link"
 
 import { CardData } from "@/types/card"
 
 const HomeCard = ({ title, image, description }: CardData) => {
   return (
-    <div className="relative overflow-hidden rounded-lg border bg-background p-2">
+    <Link
+      className="dark:shadow- relative overflow-hidden rounded-lg border bg-background p-2 shadow-md"
+      href={`/${title.toLowerCase()}`}
+    >
       <div className="float-right pr-5 pt-5">
         <Image {...image} alt={image.alt} />
       </div>
@@ -14,7 +18,7 @@ const HomeCard = ({ title, image, description }: CardData) => {
           <p className="text-sm text-muted-foreground">{description}</p>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
 

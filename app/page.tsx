@@ -17,7 +17,7 @@ export default function IndexPage() {
           <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
             A website about how gene editing tools have, and will continue to
             change the world. Programmed from{" "}
-            <span className="gradient hover:bg-gradient-to-r hover:from-blue-200 hover:to-purple-400">
+            <span className="gradient hover:bg-gradient-to-r hover:from-blue-200 hover:to-purple-400 hover:transition-all">
               scratch
             </span>{" "}
             by Aadi Sanghvi

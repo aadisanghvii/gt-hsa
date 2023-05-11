@@ -2,7 +2,7 @@ import { CardData } from "@/types/card"
 
 export const card: CardData[] = [
   {
-    title: "Technology",
+    title: "Tech",
     description:
       "The different technologies and methods used by scientists to modify the genes of organisms.",
     image: {
