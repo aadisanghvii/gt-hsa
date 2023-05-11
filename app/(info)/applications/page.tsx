@@ -128,6 +128,7 @@ const page = () => {
             breaking down non-biodegradable materials, solving some of the
             worlds&apos; landfill problems.
           </p>
+          <Divider />
           <Footnotes BackLink={(props) => <a {...props}></a>} />
         </FootnotesProvider>
       </article>
