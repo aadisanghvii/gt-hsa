@@ -10,7 +10,6 @@ import "../../../styles/footnotes/styles.css"
 import Image from "next/image"
 
 import Divider from "@/components/ui/divider"
-import { Icons } from "@/components/icons"
 
 const page = () => {
   return (
