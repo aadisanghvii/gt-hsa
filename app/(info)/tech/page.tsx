@@ -72,7 +72,7 @@ const page = () => {
             </Ref>
           </p>
           <Image
-            src={"/plant-dna.jpg"}
+            src={"/crispr.png"}
             alt={""}
             width={750}
             height={750}
