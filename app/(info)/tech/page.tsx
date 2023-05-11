@@ -160,7 +160,7 @@ const page = () => {
           </p>
           <Divider />
 
-          <Footnotes />
+          <Footnotes BackLink={(props) => <a {...props}></a>} />
         </FootnotesProvider>
       </article>
     </div>
